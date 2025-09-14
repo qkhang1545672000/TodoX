@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install frontend && run build --prefix frontend"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/qkhang1545672000/TodoX/issues"
   },
-  "homepage": "https://github.com/qkhang1545672000/TodoX#readme"
+  "homepage": "https://github.com/qkhang1545672000/TodoX#readme",
+  "dependencies": {
+    "sass": "^1.92.1"
+  }
 }
